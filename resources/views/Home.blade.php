@@ -7,7 +7,7 @@
     </head>
 
     <body class="hold-transition sidebar-mini">
-        <div class="wrapper">
+        <div class="wrapper" id="app">
             {{-- Navbar --}}
             @include('Template.navbar')
             {{-- Sidebar --}}
@@ -15,11 +15,10 @@
 
             {{-- Content --}}
             {{-- Menambahkan vue js --}}
-            <div class="content-wrapper" id="app">
+            <div class="content-wrapper">
                 <div class="content">
-                    <div class="container-fluid">
-                        <example-component></example-component>
-                    </div>
+                        {{-- <example-component></example-component> --}}
+                        <router-view></router-view>
                 </div>
             </div>
             {{-- Footer --}}

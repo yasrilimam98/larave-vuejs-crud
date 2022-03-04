@@ -22,13 +22,20 @@
                 </a>
             <ul class="nav nav-treeview">
                 <li class="nav-item">
-                    <a href="#" class="nav-link active">
-                        <i class="fas fa-users nav-icon"></i><p>Data User</p>
-                    </a>
+                    {{-- <a> di ganti router-link untuk vue js --}}
+                    <router-link to="data-user" class="nav-link">
+                        <i class="fas fa-users nav-icon green"></i><p>Data User</p>
+                    </router-link>
+                </li>
+                <li class="nav-item">
+                    {{-- <a> di ganti router-link untuk vue js --}}
+                    <router-link to="data-level" class="nav-link">
+                        <i class="fas fa-layer-group nav-icon blue"></i><p>Data Level</p>
+                    </router-link>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">
-                        <i class="fas fa-sign-out nav-icon"></i>
+                        <i class="fas fa-sign-out nav-icon red"></i>
                         <p>Logout</p>
                     </a>
                 </li>

@@ -14,3 +14,11 @@ $fa-font-path: "../webfonts";
 @import "@fortawesome/fontawesome-free/scss/fontawesome.scss";
 @import "@fortawesome/fontawesome-free/scss/solid.scss";
 @import "@fortawesome/fontawesome-free/scss/brands.scss";
+
+// Membuat warna aktif di navbar
+.router-link-exact-active{
+    background-color: #760933;
+    color: rgb(255, 255, 255) !important;
+    font-style: italic;
+    font-weight: bold;
+}
